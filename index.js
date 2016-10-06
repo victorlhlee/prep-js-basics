@@ -10,15 +10,11 @@
 * Fill out the values for these with your own data or make it up. It should contain a String
 **/
 
-var firstName = "Steve";
-var lastName = 'Jobs';
-var birthPlace = "Chicago";
+var firstName = "Vic";
+var lastName = "Lee";
+var birthPlace = "Kenya";
 
-console.log("first name: ", firstName);
-console.log("last name: ", lastName);
-console.log(birthPlace);
-
-
+console.log(firstName, lastName, birthPlace);
 
 
 /**
@@ -29,12 +25,12 @@ console.log(birthPlace);
 * Their values should be a Number
 **/
 
-
-var favoriteNumber = 69.5;
+var favoriteNumber = 315;
 var currentYear = 2016;
 var thatOnePrinceSong = 1999;
 
-console.log(favoriteNumber, currentYear, thatOnePrinceSong);
+console.log(favoriteNumber,currentYear, thatOnePrinceSong);
+
 
 /**
 * #3
@@ -47,9 +43,11 @@ console.log(favoriteNumber, currentYear, thatOnePrinceSong);
 var isDaytime = false;
 var isLeftHanded = false;
 var inHawaii = true;
-var isHappyCoding = true;
+var isHappyCoding = false;
 
-console.log(isDaytime);
+console.log(isDaytime, isLeftHanded, inHawaii, isHappyCoding);
+
+
 
 /**
 * #4
@@ -61,8 +59,8 @@ console.log(isDaytime);
 
 var enrolledAtDevLeague = null;
 var completedFridayPrep = null;
-
 console.log(enrolledAtDevLeague, completedFridayPrep);
+
 /**
 * #5a
 * Variables with an Array for it's value. This Array will contain:
@@ -71,11 +69,10 @@ console.log(enrolledAtDevLeague, completedFridayPrep);
 * which can be found along the west coast of The United States.
 **/
 
-var westCoast = ["Alaska", "Cali", "Oregon", "wash", "home sweet home Hawaii"];
+var westCoast = ["Cali", "Oregon", "Washington", "Canada(they wish)"];
 
 console.log(westCoast);
-console.log(westCoast[2]);
-console.log(westCoast[0]);
+
 
 /**
 * #5b
@@ -85,7 +82,6 @@ console.log(westCoast[0]);
 * are considered 'even values'. Have at least ten even values in this array.
 **/
 
-var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
 
 
 /**
@@ -98,15 +94,14 @@ var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
 * Extend this behavior to include subtraction, multiplication and division. 
 */
 
-var sumOfNumbers = 5 + 10 + 15;
+var sumOfNumbers = 300 + 15;
 console.log(sumOfNumbers);
 
-var differenceOfNumbers = 5 - 10 - 15;
+var differenceOfNumbers = 20 - 10;
 console.log(differenceOfNumbers);
 
-var productOfNumbers = 5 * 10 * 15;
-console.log(productOfNumbers);
-
+var results = sumOfNumbers * differenceOfNumbers;
+console.log(results);
 
 /**
 * #6b Comparisons & Logic
@@ -118,17 +113,11 @@ console.log(productOfNumbers);
 * BONUS: See if you can come up with a few examples of double comparison operator(==) vs triple comparison operator(===)
 */
 
-var isEqual = ("Tacocat" === "tacocat");
-console.log(isEqual); //false
-
-var isEqual = "tacocat" == "tacoCat";
+var isEqual = "Tacocat" === "tacocat";
 console.log(isEqual);
 
-var isEqual = "3" === 3;
-console.log(isEqual); //false
-
-var isEqual = "3" == 3;
-console.log(isEqual);
+var isEquals = "3" === 3;
+console.log(isEquals);
 
 
 
@@ -144,17 +133,16 @@ console.log(isEqual);
 * assignment statement to show the current value.
 */
 
-var generalContainer = 42;
+var generalContainer = 21;
+console.log(generalContainer);
+generalContainer += 5;
+console.log(generalContainer);
+generalContainer -= 10;
+console.log(generalContainer);
+++generalContainer;
 console.log(generalContainer);
 
-generalContainer +=3;
-console.log(generalContainer);
 
-generalContainer -=10;
-console.log(generalContainer);
-
-generalContainer *=2;
-console.log(generalContainer);
 
 /**
 * #7a
